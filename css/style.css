@@ -1,0 +1,116 @@
+/* main_container */
+.main_container {
+    padding: 60px 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background: url(../image/main_img.png);
+    position: relative;
+}
+
+.header_menu {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    width: 600px;
+}
+
+.header_menu > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu > ul > li {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+    padding-left: 200px;
+    padding-top: 300px;
+}
+
+.main_text_content {
+    font-size: 24px;
+    padding-left: 200px;
+    padding-top: 40px;
+    line-height: 30px;
+}
+
+/* profile_container */
+.profile_container {
+    height: 100vh;
+    padding: 120px;
+}
+
+.profile_container > h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.profile_content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e3e3e3;
+    border-radius: 24px;
+    padding: 60px 160px;
+}
+
+.profile_intro > img {
+    width: 400px;
+    height: 470px;
+    margin-bottom: 16px;
+}
+
+.name, .birth, .email {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.name, .birth {
+    margin-bottom: 12px;
+
+}
+
+.name > h3, 
+.birth > h3, 
+.email > h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.name > p, 
+.birth > p, 
+.email > p {
+    font-size: 24px;
+}
+
+.profile_text > p {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.license > h3,
+.skill > h3 {
+    width: 240px;
+    padding: 16px 8px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: #C9C9C9;
+    border-radius: 32px;
+    margin-bottom: 20px;
+}
+
+.license > p {
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: 16px;
+}
+
+.skill > h3 {
+    margin-top: 40px;
+}
