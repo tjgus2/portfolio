@@ -1,0 +1,89 @@
+@media (max-width: 1730px) {
+
+    .profile_text>p {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 32px;
+    }
+
+    .project_img>a>img {
+        width: 700px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1540px) {
+    .profile_content {
+        padding: 60px;
+    }
+
+    .profile_intro>img {
+        width: 320px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .profile_container,
+    .project_container,
+    .contact_container {
+        padding: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .skill>img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .profile_container>h2,
+    .project_container>h2,
+    .contact_content>h2 {
+        font-size: 48px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .profile_content {
+        padding: 40px;
+    }
+
+    .profile_intro>img {
+        width: 240px;
+        height: 300px;
+    }
+
+    .name>h3,
+    .birth>h3,
+    .email>h3,
+    .name>p,
+    .birth>p,
+    .email>p {
+        font-size: 16px;
+    }
+
+    .profile_text > p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.license > h3,
+.skill > h3 {
+    width: 200px;
+    padding: 12px;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.license > p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 12px;
+}
+
+}

@@ -41,6 +41,7 @@ h1 {
 .profile_container {
     height: 100vh;
     padding: 120px;
+    box-sizing: border-box;
 }
 
 .profile_container > h2 {
@@ -57,7 +58,7 @@ h1 {
     justify-content: space-between;
     background-color: #e3e3e3;
     border-radius: 24px;
-    padding: 60px 160px;
+    padding: 60px 100px;
 }
 
 .profile_content.show {
@@ -79,7 +80,6 @@ h1 {
 
 .name, .birth {
     margin-bottom: 12px;
-
 }
 
 .name > h3, 
