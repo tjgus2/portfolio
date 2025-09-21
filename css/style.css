@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 
-.header_menu > ul > li {
+.header_menu > ul > li > a {
     font-size: 24px;
 }
 
@@ -50,11 +50,19 @@ h1 {
 }
 
 .profile_content {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
     display: flex;
     justify-content: space-between;
     background-color: #e3e3e3;
     border-radius: 24px;
     padding: 60px 160px;
+}
+
+.profile_content.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .profile_intro > img {
@@ -113,4 +121,89 @@ h1 {
 
 .skill > h3 {
     margin-top: 40px;
+}
+
+/* project_container */
+.project_container {
+    height: 100vh;
+    padding: 120px;
+    box-sizing: border-box;
+}
+
+.project_container > h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.project1_content, 
+.project2_content{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project1_content.show, 
+.project2_content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.project_text_top > p {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.change_color {
+    color: #7C7C7C;
+    font-weight: 600;
+}
+
+.project_text_bottom {
+    margin-top: 80px;
+}
+
+.project_text_bottom > a {
+    display: block;
+    width: 420px;
+    padding: 14px 8px;
+    text-align: center;
+    background-color: #C9C9C9;
+    border: none;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 28px;
+    border-radius: 26px;
+}
+
+.project_img > a > img {
+    width: 1100px;
+    height: auto;
+}
+
+/* contact_section */
+.contact_section {
+    height: 520px;
+    padding: 120px;
+    box-sizing: border-box;
+    background-color: #E6E6E6;
+}
+
+.contact_section > h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.contact_content > p {
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.contact_content > p:last-child {
+    font-size: 36px;
 }
