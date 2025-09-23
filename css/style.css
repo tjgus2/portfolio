@@ -1,22 +1,16 @@
 /* main_container */
 .main_container {
-    padding: 60px 0;
+    padding: 60px 100px;
     height: 100vh;
     box-sizing: border-box;
     background: url(../image/main_img.png);
-    position: relative;
-}
-
-.header_menu {
-    position: absolute;
-    top: 80px;
-    right: 200px;
-    width: 600px;
 }
 
 .header_menu > ul {
     display: flex;
     justify-content: space-between;
+    justify-content: flex-end;
+    gap: 100px;
 }
 
 .header_menu > ul > li > a {
@@ -56,7 +50,6 @@ h1 {
     transition: opacity 0.8s ease, transform 0.8s ease;
     display: flex;
     justify-content: space-between;
-    background-color: #e3e3e3;
     border-radius: 24px;
     padding: 60px 100px;
 }
@@ -185,14 +178,14 @@ h1 {
 }
 
 /* contact_section */
-.contact_section {
+.contact_container {
     height: 520px;
     padding: 120px;
     box-sizing: border-box;
     background-color: #E6E6E6;
 }
 
-.contact_section > h2 {
+.contact_container > h2 {
     font-size: 64px;
     font-weight: 700;
     margin-bottom: 100px;
