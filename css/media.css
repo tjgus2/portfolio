@@ -6,11 +6,6 @@
         font-weight: 600;
         margin-bottom: 32px;
     }
-
-    .project_img>a>img {
-        width: 700px;
-        height: auto;
-    }
 }
 
 @media (max-width: 1540px) {
@@ -22,6 +17,12 @@
 
     .profile_intro>img {
         width: 320px;
+        height: 400px;
+    }
+
+    /* project_container */
+    .project_img>a>img {
+        width: 600px;
         height: 400px;
     }
 }
@@ -107,7 +108,8 @@
 
     /* project_container */
     .project_img>a>img {
-        width: 500px;
+        width: 420px;
+        height: 380px;
     }
 
     /* contact_container */
@@ -159,10 +161,15 @@
     .project_container {
         height: auto;
     }
-    
+
     .project1_content,
     .project2_content {
         flex-direction: column;
+    }
+
+    .project_img>a>img {
+        width: 60%;
+        height: 320px;
     }
 }
 
